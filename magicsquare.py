@@ -1,6 +1,6 @@
 a=[[2,9,4],
    [7,5,3],
-   [6,1,8]]
+   [6,11,8]]
 # i=0
 # while i<len(a):
 #     j=0
@@ -15,10 +15,10 @@ while i<len(a):
     j=0
     sumc=0
     while j<len(a[i]):
-        sumc=sumc+a[i][j]
+        sumc=sumc+a[j][i]
         j=j+1
     i=i+1
-print(sumc)
+    print(sumc)
 # i=0
 # r=2
 # m=0
